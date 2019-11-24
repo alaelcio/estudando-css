@@ -1,0 +1,34 @@
+ul {
+    background-color: #56b4ef;
+    background-image: linear-gradient( to bottom, #56b4ef, #148eda );
+    float: left;
+    list-style: none;
+    margin: 10px 0 0;
+    padding: 0;
+    width: 230 px;
+
+}
+
+@font-face {
+    font-family: 'iconifill';
+    src: ('iconic_fill.woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.icon ::before{
+    font-family: 'iconicfill';
+    margin: 0px 5px;
+    
+}
+.paper ::before {
+    content: '\e00b';
+
+}
+.digital ::before {
+    content: '\e044';
+}
+
+.package ::before {
+    content : '\e022';
+}
